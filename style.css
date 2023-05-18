@@ -5,6 +5,7 @@
 }
 body {
   background-color: rgb(224, 224, 224);
+  font-family: "Josefin Sans", sans-serif;
 }
 .header {
   text-align: center;
@@ -18,10 +19,26 @@ body {
 }
 .hImg {
   width: 8%;
-  margin-left: 50px;
+  margin-left: 80%;
+  position: absolute;
 }
 .hTitle {
-  margin-left: 10vh;
+  position: relative;
+}
+.hTitle span {
+  color: rgb(255, 153, 0);
+}
+.hTitle h3 {
+  margin-bottom: 10px;
+}
+.hTitle a {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(255, 153, 0);
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
 .subTitle {
   background-color: rgb(41, 41, 41);
@@ -46,8 +63,10 @@ body {
   border-radius: 15px;
   margin: 0 auto 0 auto;
 }
-.card img {
-  width: 15%;
+.card img,
+.card-categorias img {
+  width: 80px;
+  height: 100%;
 }
 .card input {
   width: 40%;
@@ -70,4 +89,28 @@ body {
   border: 2px solid black;
   border-radius: 15px;
   padding: 10px;
+}
+
+.content-categorias {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.card-categorias {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 45%;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 0 auto 0 auto;
+}
+
+.btn-categorias {
+  padding: 5px;
 }
