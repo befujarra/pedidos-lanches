@@ -109,6 +109,10 @@ body {
   border: 1px solid black;
   border-radius: 15px;
   margin: 0 auto 0 auto;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-weight: bold;
 }
 
 .btn-categorias {

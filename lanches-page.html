@@ -32,7 +32,7 @@
         <div class="headCard">
           <img src="assets/2.png" alt="" />
           <div class="card-titles">
-            <h3>CheeseBurger</h3>
+            <h3 id="CheeseBurger" name="CheeseBurger">CheeseBurger</h3>
             <p>
               Pão fofinho, hambúrguer de carne bovina e queijo por todos os
               lados.
@@ -42,9 +42,9 @@
         <div class="card-inputs">
           <div>
             <label for="qtd">QTD</label>
-            <input type="number" />
+            <input type="number" id="qtd" name="qtdCheeseBurger" />
           </div>
-          <button>ADD</button>
+          <button type="submit" onclick="cheeseBurger()">ADD</button>
         </div>
       </div>
       <br />
@@ -128,5 +128,6 @@
         </div>
       </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
