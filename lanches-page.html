@@ -13,7 +13,6 @@
     />
   </head>
   <body>
-    <!--...............................................<CABEÇALHO>..................................................-->
     <header class="header">
       <div class="hTitle">
         <h1><span>B</span>URGER</h1>
@@ -32,12 +31,107 @@
       <br />
       <h2>Faça seu pedido:</h2>
     </div>
-    <!--.................................................</CABEÇALHO>................................................-->
     <main class="content-principal">
       <h3 class="h3-principal">Hambugers</h3>
-      <div id="produtos"></div>
-      <div id="compras"></div>
-      <!--Produtos-->
+      <div class="card" id="CheeseBurger">
+        <div class="headCard">
+          <img src="assets/2.png" alt="" />
+          <div class="card-titles">
+            <h3 name="CheeseBurger">CheeseBurger</h3>
+            <p>
+              Pão fofinho, hambúrguer de carne bovina e queijo por todos os
+              lados.
+            </p>
+          </div>
+        </div>
+        <div class="card-inputs">
+          <div>
+            <label for="qtd">QTD</label>
+            <input type="number" id="qtd" name="qtdCheeseBurger" />
+          </div>
+          <button type="submit" onclick="cheeseBurger()">ADD</button>
+        </div>
+      </div>
+      <br />
+      <div class="card">
+        <div class="headCard">
+          <img src="assets/1.png" alt="" />
+          <div class="card-titles">
+            <h3>X-Salada</h3>
+            <p>
+              Pão fofinho, hambúrguer de carne bovina e queijo por todos os
+              lados, e salada fresca selecionada.
+            </p>
+          </div>
+        </div>
+        <div class="card-inputs">
+          <div>
+            <label for="qtd">QTD</label>
+            <input type="number" />
+          </div>
+          <button>ADD</button>
+        </div>
+      </div>
+      <br />
+      <div class="card">
+        <div class="headCard">
+          <img src="assets/3.png" alt="" />
+          <div class="card-titles">
+            <h3>X-Bacon</h3>
+            <p>
+              Pão fofinho, hambúrguer de carne bovina e queijo por todos os
+              lados, bacon e molho especial.
+            </p>
+          </div>
+        </div>
+        <div class="card-inputs">
+          <div>
+            <label for="qtd">QTD</label>
+            <input type="number" />
+          </div>
+          <button>ADD</button>
+        </div>
+      </div>
+      <br />
+      <div class="card">
+        <div class="headCard">
+          <img src="assets/4.png" alt="" />
+          <div class="card-titles">
+            <h3>Big X-Bacon</h3>
+            <p>
+              Pão fofinho, salada, bacon, queijo por todos os lados, e molho
+              especial.
+            </p>
+          </div>
+        </div>
+        <div class="card-inputs">
+          <div>
+            <label for="qtd">QTD</label>
+            <input type="number" />
+          </div>
+          <button>ADD</button>
+        </div>
+      </div>
+      <br />
+      <div class="card">
+        <div class="headCard">
+          <img src="assets/5.png" alt="" />
+          <div class="card-titles">
+            <h3>X-Egg</h3>
+            <p>
+              Pão fofinho, hambúrguer de carne bovina e queijo por todos os
+              lados, presunto e ovo frito.
+            </p>
+          </div>
+        </div>
+        <div class="card-inputs">
+          <div>
+            <label for="qtd">QTD</label>
+            <input type="number" />
+          </div>
+          <button>ADD</button>
+        </div>
+      </div>
     </main>
     <script src="script.js"></script>
   </body>

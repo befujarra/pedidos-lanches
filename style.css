@@ -69,6 +69,9 @@ body {
   width: 80px;
   height: 100%;
 }
+.card input {
+  width: 40%;
+}
 
 .headCard {
   display: flex;
@@ -80,22 +83,13 @@ body {
   align-items: center;
   margin-left: auto;
   margin-top: 5px;
-  gap: 50px;
 }
 
-.btn-lanches {
+.card-inputs button {
   background-color: rgb(255, 153, 0);
   border: 2px solid black;
   border-radius: 15px;
   padding: 10px;
-  cursor: pointer;
-}
-.btnADD {
-  background-color: rgb(255, 153, 0);
-  border: 2px solid black;
-  border-radius: 15px;
-  padding: 10px;
-  height: 40px;
 }
 
 .content-categorias {
