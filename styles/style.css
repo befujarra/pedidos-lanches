@@ -1,0 +1,167 @@
+/*index e header*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(224, 224, 224);
+  font-family: "Josefin Sans", sans-serif;
+}
+.header {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(224, 224, 224);
+}
+.hImg {
+  width: 25px;
+  margin-left: 20%;
+  position: absolute;
+}
+
+.hTitle span {
+  color: rgb(255, 153, 0);
+}
+.hTitle h3 {
+  margin-bottom: 10px;
+}
+.menuBtn {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(255, 153, 0);
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.subTitle {
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+  font-size: 10px;
+  padding: 15px;
+  color: rgb(255, 153, 0);
+}
+
+.h3-principal {
+  text-align: center;
+  padding: 15px;
+}
+/*---------------------------------------------------------------------------------*/
+/*lanches*/
+.card {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 90%;
+  border-radius: 15px;
+  margin: 0 auto 0 auto;
+}
+.card img,
+.card-categorias img {
+  width: 80px;
+  height: 100%;
+}
+
+.headCard {
+  display: flex;
+  gap: 10px;
+}
+.card-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-top: 5px;
+  gap: 50px;
+}
+
+.btn-lanches,
+.btn-bebidas,
+.btn-porcoes,
+.btn-acompanhamentos,
+.btn-remover {
+  background-color: rgb(255, 153, 0);
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+.btnADD {
+  background-color: rgb(255, 153, 0);
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  height: 40px;
+}
+
+.content-categorias {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.card-categorias {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 45%;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 0 auto 0 auto;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn-categorias {
+  padding: 5px;
+}
+.btn-pedidos {
+  border-radius: 15px;
+  border: 1px solid black;
+  background-color: #ff9900;
+  padding: 10px;
+  color: #000;
+  position: sticky;
+}
+.espaço {
+  margin-bottom: 80px;
+}
+.footer {
+  background-color: #272727;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  color: #fff;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  list-style-type: none;
+}
+.total {
+  color: #fff;
+  text-decoration: none;
+  list-style-type: none;
+}
+/*---------------------------------------------------------------------------------*/
+/*MEUS PEDIDOS*/
+.voidCart {
+  text-align: center;
+  margin-top: 20px;
+}
