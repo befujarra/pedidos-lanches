@@ -39,6 +39,11 @@ body {
   font-weight: bold;
   color: black;
 }
+.menuBtn:hover {
+  color: #ff9900;
+  background-color: #272727;
+  border: 1px solid #ff9900;
+}
 .subTitle {
   background-color: rgb(41, 41, 41);
   text-align: center;
@@ -63,6 +68,9 @@ body {
   width: 90%;
   border-radius: 15px;
   margin: 0 auto 0 auto;
+  -webkit-box-shadow: 6px 5.5px 23px -2.5px #000000;
+  -moz-box-shadow: 6px 5.5px 23px -2.5px #000000;
+  box-shadow: 6px 5.5px 23px -2.5px #000000;
 }
 .card img,
 .card-categorias img {
@@ -94,14 +102,15 @@ body {
   padding: 10px;
   cursor: pointer;
 }
-.btnADD {
-  background-color: rgb(255, 153, 0);
-  border: 2px solid black;
-  border-radius: 15px;
-  padding: 10px;
-  height: 40px;
-}
 
+.btn-lanches:hover,
+.btn-bebidas:hover,
+.btn-porcoes:hover,
+.btn-acompanhamentos:hover {
+  color: #ff9900;
+  background-color: #272727;
+  border: 2px solid #ff9900;
+}
 .content-categorias {
   margin-top: 30px;
   display: flex;
@@ -136,6 +145,11 @@ body {
   padding: 10px;
   color: #000;
   position: sticky;
+}
+.btn-pedidos:hover {
+  color: #ff9900;
+  background-color: #272727;
+  border: 1px solid #ff9900;
 }
 .espaço {
   margin-bottom: 80px;
