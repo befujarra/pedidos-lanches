@@ -39,6 +39,11 @@ body {
   font-weight: bold;
   color: black;
 }
+.menuBtn:hover {
+  color: #ff9900;
+  background-color: #272727;
+  border: 1px solid #ff9900;
+}
 .subTitle {
   background-color: rgb(41, 41, 41);
   text-align: center;
@@ -63,14 +68,14 @@ body {
   width: 90%;
   border-radius: 15px;
   margin: 0 auto 0 auto;
+  -webkit-box-shadow: 6px 5.5px 23px -2.5px #000000;
+  -moz-box-shadow: 6px 5.5px 23px -2.5px #000000;
+  box-shadow: 6px 5.5px 23px -2.5px #000000;
 }
 .card img,
 .card-categorias img {
   width: 80px;
   height: 100%;
-}
-.card input {
-  width: 40%;
 }
 
 .headCard {
@@ -83,15 +88,29 @@ body {
   align-items: center;
   margin-left: auto;
   margin-top: 5px;
+  gap: 50px;
 }
 
-.card-inputs button {
+.btn-lanches,
+.btn-bebidas,
+.btn-porcoes,
+.btn-acompanhamentos,
+.btn-remover {
   background-color: rgb(255, 153, 0);
   border: 2px solid black;
   border-radius: 15px;
   padding: 10px;
+  cursor: pointer;
 }
 
+.btn-lanches:hover,
+.btn-bebidas:hover,
+.btn-porcoes:hover,
+.btn-acompanhamentos:hover {
+  color: #ff9900;
+  background-color: #272727;
+  border: 2px solid #ff9900;
+}
 .content-categorias {
   margin-top: 30px;
   display: flex;
@@ -118,6 +137,41 @@ body {
 
 .btn-categorias {
   padding: 5px;
+}
+.btn-pedidos {
+  border-radius: 15px;
+  border: 1px solid black;
+  background-color: #ff9900;
+  padding: 10px;
+  color: #000;
+  position: sticky;
+}
+.btn-pedidos:hover {
+  color: #ff9900;
+  background-color: #272727;
+  border: 1px solid #ff9900;
+}
+.espaço {
+  margin-bottom: 80px;
+}
+.footer {
+  background-color: #272727;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  color: #fff;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  list-style-type: none;
+}
+.total {
+  color: #fff;
+  text-decoration: none;
+  list-style-type: none;
 }
 /*---------------------------------------------------------------------------------*/
 /*MEUS PEDIDOS*/
